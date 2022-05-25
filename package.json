@@ -1,0 +1,17 @@
+{
+  "name": "cypress-wait-for-network-idle-example",
+  "version": "1.0.0",
+  "description": "Example application showing Cypress test flake",
+  "private": true,
+  "scripts": {
+    "start": "serve -p 5700 public",
+    "cy:open": "cypress open",
+    "dev": "start-test 5700 cy:open"
+  },
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "prettier": "^2.6.2",
+    "serve": "^13.0.2",
+    "start-server-and-test": "^1.14.0"
+  }
+}
